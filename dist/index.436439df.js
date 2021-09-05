@@ -769,7 +769,7 @@ parcelHelpers.export(exports, "MODAL_CLOSE_SEC", ()=>MODAL_CLOSE_SEC
 const API_URL = 'https://forkify-api.herokuapp.com/api/v2/recipes/';
 const TIMEOUT_SEC = 10;
 const RES_PER_PAGE = 10;
-const KEY = '6d5f685c-9771-46db-8b7d-7385cbf3ef0b';
+const KEY = '6d5f685c-9771-46db-8b7d-7385cbf3ef0b'; // NOTE 展示作品用 此為練習用免洗KEY 😎
 const MODAL_CLOSE_SEC = 2.5;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"JacNc":[function(require,module,exports) {
@@ -873,7 +873,7 @@ var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
 // import icons from '../img/icons.svg'; //Parcel 1
 var _iconsSvg = require("url:../../img/icons.svg"); //Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
-// import { Fraction } from 'fractional';
+// import { Fraction } from 'fractional'; //用來顯示分數 但有問題 所以改成下方的
 var _helperJs = require("../helper.js");
 class RecipeView extends _viewJsDefault.default {
     _parentElement = document.querySelector('.recipe');
@@ -913,7 +913,7 @@ class RecipeView extends _viewJsDefault.default {
 }
 exports.default = new RecipeView();
 
-},{"./View.js":"8rtS4","url:../../img/icons.svg":"iwCpK","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","../helper.js":"aqMTk"}],"8rtS4":[function(require,module,exports) {
+},{"./View.js":"8rtS4","url:../../img/icons.svg":"iwCpK","../helper.js":"aqMTk","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"8rtS4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
